@@ -18,7 +18,7 @@ I am a designer with little experience. My goal is to master frontend developmen
 
 ## Code Example
 Task from Codewars - [Basic Mathematical Operations](https://www.codewars.com/kata/57356c55867b9b7a60000bd7/train/javascript)
-Task is to create a function that does four basic mathematical operations.
+> Task is to create a function that does four basic mathematical operations.
 
 ```javascript
 function basicOp(operation, value1, value2){

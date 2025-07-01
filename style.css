@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+
+    background-image: url("./assets/topography.png");
+    background-repeat: repeat;
+}
+    
+
+h1 {
+    color: #0f0f0f;
+    font-size: 42px;
+    /*font-weight: 1000;*/
+}
+
+h2 {
+    color: #0f0f0f;
+    font-size: 24px;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 24px;
+    color: #4400ff;
+}
+
+/*div section*/
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.head {
+    border: solid;
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+}
+
+.right {
+    border: solid;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.left {
+    border: solid;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.titler {
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+}

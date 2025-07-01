@@ -16,46 +16,62 @@ body {
     margin-left:auto;
 }
 
+p {
+    color:#5e5e5e;
+}
+
+
 /*text section*/
 
 h1 {
-    color: #0f0f0f;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
     font-size: 30px;
 }
 
-h2 {
-    color: #0f0f0f;
-    font-size: 24px;
-}
 
 .heading {
     text-transform: uppercase;
     text-align: center;
     font-size: 42px;
     font-weight: 1000;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.name {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 1000;
+    background: linear-gradient(to right, #30CFD0 0%, #41752d 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .titler {
     text-transform: uppercase;
     color: #000000;
-   /* text-decoration: underline;
-    text-underline-offset: 20px;*/
 }
 
 .link {
     text-decoration: none;
-    font-size: 24px;
+    font-size: 22px;
+    font-weight: 800;
     color: #4400ff;
 }
 
-.stroke {
-    font-size: 22px;
-    background-color: #cccccc;
-    padding: 4px;
-    border-radius: 5px;
+.colortext {
+    font-weight: 600;
+    color: #000000;
 }
 
 /*div section*/
+
+div {
+  word-break: break-all;
+}
 
 .main {
     max-width: 1200px;
@@ -77,6 +93,7 @@ h2 {
 }
 
 .block {
+    display: block ;
     box-shadow: 0px 0px 20px #b8b8b8;
     padding: 20px;
     background-color: #ffffff;
